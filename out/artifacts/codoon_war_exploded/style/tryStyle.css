@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("/image/background.jpg");
+}
+
+#red {
+    color: red;
+    text-decoration: blink;
+}
+#green {
+    color: green;
+}
+
+p.centerSusu {
+    text-align: center;
+    text-decoration: blink;
+}

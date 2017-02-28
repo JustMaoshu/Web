@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Arial", "Hiragino Sans GB", "Microsoft YaHei",
+    \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+}
+
+nav {
+    font-size: 17px;
+}
+
+#portfolio-panel {
+    margin-top: 50px;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.details {
+    padding-left: 20px;
+}
+
+#myModal .modal-footer {
+    padding: 10px 10px 10px 15px;
+}
+
+.modal-body h4 {
+    margin-top: 0;
+}
+
+.modal-body .well {
+    margin-bottom: 0;
+}
+
+.modal-body button {
+    margin: 5px 15px;
+    display: inline-flex;
+}
+
+.about .modal {
+    top: 20%;
+}
+
+
+.jdbox{
+    display: block;
+    background-color: #eee;
+    position: relative;
+    float: left;
+}
+
+.jdbox .boxtop{
+    width: 100%;
+    height: 10px;
+    background-color: #aaa;
+    position: absolute;
+    top:0px;
+}
+.jdbox .boxtop .ltcorner,
+.jdbox .boxbottom .ltcorner
+{
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.jdbox .boxtop .lrline,
+.jdbox .boxbottom .lrline
+{
+    width: auto;
+    height: 10px;
+    background-color: #ccc;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+}
+.jdbox .boxtop .rtcorner,
+.jdbox .boxbottom .rtcorner
+{
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.jdbox .boxcenter{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+}
+.jdbox .boxcenter .ltbline{
+    width: 10px;
+    height: auto;
+    background-color: #ccc;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+.jdbox .boxcenter .content{
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 0px;
+    word-wrap:break-word;
+}
+.jdbox .boxcenter .rtbline{
+    width: 10px;
+    height: auto;
+    background-color: #ccc;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.jdbox .boxbottom{
+    width: 100%;
+    height: 10px;
+    background-color: #aaa;
+    position: absolute;
+    bottom: 0px;
+}
+
+.labItem1{
+    font-size: 22px;
+    margin-left: -15px;
+    margin-top: 30px;
+    float: left;
+}
+.labItem2{
+    font-size: 22px;
+    margin-right: 45px;
+    margin-top: 27px;
+    float: right;
+}
+
+.txt{
+    font-size:20px;color: #5f3f04;text-shadow:0px 1px 0px #e1caae;display:block;font-weight:200;
+    margin-top: 270px;
+    margin-left: 236px;
+}

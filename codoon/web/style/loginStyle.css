@@ -1,0 +1,30 @@
+body {
+    background-image:url(../image/background.jpg);
+    font-family: "Arial", "Hiragino Sans GB", "Microsoft YaHei",
+    \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+}
+
+nav {
+    font-size: 17px;
+}
+
+#login-form {
+    width: 600px;
+    height: 300px;
+}
+
+.cn{
+    text-align:center;
+    font-size: 25px;
+    color: #060606;
+}
+
+.table th, .table td {
+    text-align: center;
+    font-size: 18px;
+    height:58px;
+}
+
+.return{
+    font-size: 17px;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Web作业.iml" filepath="$PROJECT_DIR$/Web作业.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codoon/codoon.iml" filepath="$PROJECT_DIR$/codoon/codoon.iml" />
+      <module fileurl="file://D:/大三中/J2EE/homework2and3/homework2and3.iml" filepath="D:/大三中/J2EE/homework2and3/homework2and3.iml" />
+    </modules>
+  </component>
+</project>

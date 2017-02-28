@@ -1,0 +1,22 @@
+css笔记
+Web中加css的方式有三种：
+	1.外部样式表
+	2.内部样式表
+	3.内联样式表
+
+id选择器以#开头，指定特定id的标签样式
+
+类选择器以.开头，比如.centerLalala就是创建一个名叫centerLalala的类，使用时class="centerLalala"即可使用该样式
+	注：类名的第一个字符不能使用数字
+
+属性选择器使用符号[]，括号内为（特定）属性，指定该属性的样式
+	CSS 选择器参考手册
+	选择器	描述
+	[attribute]	用于选取带有指定属性的元素。
+	[attribute=value]	用于选取带有指定属性和值的元素。
+	[attribute~=value]	用于选取属性值中包含指定词汇的元素。
+	[attribute|=value]	用于选取带有以指定值开头的属性值的元素，该值必须是整个单词。
+	[attribute^=value]	匹配属性值以指定值开头的每个元素。
+	[attribute$=value]	匹配属性值以指定值结尾的每个元素。
+	[attribute*=value]	匹配属性值中包含指定值的每个元素。
+

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FunnySports--活动</title>
+    <!--公共脚本-->
+    <!--jquery-->
+    <script type="text/javascript" src="js/plugin/jquery/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="js/plugin/jquery/jquery.easing.1.3.js"></script>
+
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="style/common.css"/>
+
+    <link rel="stylesheet" href="style/activityStyle.css"/>
+</head>
+<body>
+<!--导航条Start-->
+<div class="container container_nav cf">
+
+    <a href="index.html" class="logo focus">
+        <img src="image/logo/logo.png" width="276" height="95" />
+    </a>
+
+    <ul class="nav">
+        <li class="navItem_1">
+            <a href="home.html" class="icon_nav icon_nav_1">
+                <span class="gaoguang"></span>
+                <img src="image/icon_4.png" width="89" height="89"/>
+            </a>
+            <a href="home.html" class="nav_txt">首页</a>
+            <div class="choose"></div>
+        </li>
+        <li class="navItem_2">
+            <span class="gaoguang"></span>
+            <a href="sportsdata.html" class="icon_nav icon_nav_2">
+                <img src="image/icon_2.png" width="70" height="126"/>
+            </a>
+            <a href="sportsdata.html" class="nav_txt">运动数据</a>
+            <div class="choose"></div>
+        </li>
+        <li class="navItem_3 focus">
+            <span class="gaoguang"></span>
+            <a href="activity.html" class="icon_nav icon_nav_3">
+                <img src="image/jishiben.jpg" width="81" height="100"/>
+            </a>
+            <a href="activity.html" class="nav_txt">活动列表</a>
+            <div class="choose"></div>
+        </li>
+        <li class="navItem_4">
+            <span class="gaoguang"></span>
+            <a href="sportscircle.html" class="icon_nav icon_nav_4">
+                <img src="image/icon_1.png" width="95" height="145"/>
+            </a>
+            <a href="sportscircle.html" class="nav_txt">运动圈</a>
+            <div class="choose"></div>
+        </li>
+        <li class="nav_select">
+            <select>
+                <option value="用户名">个人设置</option>
+                <option>我的账户</option>
+                <option onclick="window.location.href='login.html'">退出登录</option>
+            </select>
+        </li>
+    </ul>
+</div>
+<!--导航条End-->
+
+<!--标题-->
+<div class="container  container_full title_coloumn">
+    <span class="cn">活动列表</span>
+    <div class="title_coloumn_line"></div>
+</div>
+
+<!--<button type="button" class="btn btn-primary btn-lg">发布活动</button>-->
+
+<!--&lt;!&ndash;分类&ndash;&gt;-->
+<!--<div class="container container_full m_center cf b_70">-->
+<!--<div class="container container_1000 m_center b_30 align_center case_item">-->
+<!--<a href="#this" class="focus">全部</a>-->
+<!--<a href="#this">跑步</a>-->
+<!--<a href="#this">游泳</a>-->
+<!--<a href="#this">上山</a>-->
+<!--<a href="#this">打球</a>-->
+<!--</div>-->
+
+<!--活动列表-->
+<div class="case_list cf">
+
+    <div class="cell_wrap cell_wrap_case">
+        <div class="cell_wrap_b">
+            <div class="cell_wrap_container">
+                <a href="#this">
+                    <div class="activity_title">
+                        鼓楼校区晨跑
+                    </div>
+                </a>
+            </div>
+            <div class="cf case_txt">
+                <a href="#this" class="f_left">
+                    时间：2016.10.22
+                    <br>
+                    地点：鼓楼校区操场
+                    <br>
+                    参加人数：12人
+                </a>
+            </div>
+        </div>
+        <div class="after"></div>
+    </div>
+
+    <div class="cell_wrap cell_wrap_case">
+        <div class="cell_wrap_b">
+            <div class="cell_wrap_container">
+                <a href="#this">
+                    <div class="activity_title">
+                        游泳
+                    </div>
+                </a>
+            </div>
+            <div class="cf case_txt">
+                <a href="#this" class="f_left">
+                    时间：2016.10.26
+                    <br>
+                    地点：鼓楼校区游泳馆
+                    <br>
+                    参加人数：4人
+                </a>
+            </div>
+        </div>
+        <div class="after"></div>
+    </div>
+
+    <div class="cell_wrap cell_wrap_case">
+        <div class="cell_wrap_b">
+            <div class="cell_wrap_container">
+                <a href="#this">
+                    <div class="activity_title">
+                        打篮球
+                    </div>
+                </a>
+            </div>
+            <div class="cf case_txt">
+                <a href="#this" class="f_left">
+                    时间：2016.10.20
+                    <br>
+                    地点：鼓楼校区篮球馆
+                    <br>
+                    参加人数：9人
+                </a>
+            </div>
+        </div>
+        <div class="after"></div>
+    </div>
+
+    <div class="cell_wrap cell_wrap_case">
+        <div class="cell_wrap_b">
+            <div class="cell_wrap_container">
+                <a href="#this">
+                    <div class="activity_title">
+                        夜跑
+                    </div>
+                </a>
+            </div>
+            <div class="cf case_txt">
+                <a href="#this" class="f_left">
+                    时间：2016.10.30
+                    <br>
+                    地点：鼓楼校区操场
+                    <br>
+                    参加人数：2人
+                </a>
+            </div>
+        </div>
+        <div class="after"></div>
+    </div>
+
+    <div class="cell_wrap cell_wrap_case">
+        <div class="cell_wrap_b">
+            <div class="cell_wrap_container">
+                <a href="#this">
+                    <div class="activity_title">
+                        打排球
+                    </div>
+                </a>
+            </div>
+            <div class="cf case_txt">
+                <a href="#this" class="f_left">
+                    时间：2016.10.25
+                    <br>
+                    地点：操场
+                    <br>
+                    参加人数：5人
+                </a>
+            </div>
+        </div>
+        <div class="after"></div>
+    </div>
+
+    <div class="cell_wrap cell_wrap_case">
+        <div class="cell_wrap_b">
+            <div class="cell_wrap_container">
+                <a href="#this">
+                    <div class="activity_title">
+                        健身
+                    </div>
+                </a>
+            </div>
+            <div class="cf case_txt">
+                <a href="#this" class="f_left">
+                    时间：2016.11.5
+                    <br>
+                    地点：南京市全民健身中心
+                    <br>
+                    参加人数：37人
+                </a>
+            </div>
+        </div>
+        <div class="after"></div>
+    </div>
+
+    <div class="cell_wrap cell_wrap_case">
+        <div class="cell_wrap_b">
+            <div class="cell_wrap_container">
+                <a href="#this">
+                    <div class="activity_title">
+                        掰手腕比赛
+                    </div>
+                </a>
+            </div>
+            <div class="cf case_txt">
+                <a href="#this" class="f_left">
+                    时间：2016.10.29
+                    <br>
+                    地点：操场
+                    <br>
+                    参加人数：18人
+                </a>
+            </div>
+        </div>
+        <div class="after"></div>
+    </div>
+
+    <div class="cell_wrap cell_wrap_case">
+        <div class="cell_wrap_b">
+            <div class="cell_wrap_container">
+                <a href="#this">
+                    <div class="activity_title">
+                        跳绳活动
+                    </div>
+                </a>
+            </div>
+            <div class="cf case_txt">
+                <a href="#this" class="f_left">
+                    时间：2016.11.16
+                    <br>
+                    地点：仙林中心
+                    <br>
+                    参加人数：48人
+                </a>
+            </div>
+        </div>
+        <div class="after"></div>
+    </div>
+</div>
+
+</body>
+</html>

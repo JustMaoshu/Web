@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <!--因为bootstrap要基于jQuery来完成，所以需要先导入jQuery的开发包-->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="style/homePage.css" rel="stylesheet"/>
+    <link href="style/homeStyle.css" rel="stylesheet"/>
+    <link href="style/docs.min.css" rel="stylesheet"/>
+    <title>bootstrap test</title>
+</head>
+<body class="front_facing index">
+<!--<%&#45;&#45;导航栏Start&#45;&#45;%>-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="javascript: void(0)">AnyQuant</a>
+            </div>
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a href="javascript: void(0)">
+                            <span class="glyphicon glyphicon-home"></span> 首页
+                        </a>
+                    </li>
+                    <li>
+                        <a href="page/portfolio.jsp">
+                            <span class="glyphicon glyphicon-ban-circle"></span> 活动
+                        </a>
+                    </li>
+                    <li>
+                        <a href="page/market.jsp">
+                            <span class="glyphicon glyphicon-signal"></span> 大盘
+                        </a>
+                    </li>
+                    <li>
+                        <a href="page/picture.jsp">
+                            <span class="glyphicon glyphicon-th-list"></span> 行情
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--<%&#45;&#45;导航栏End&#45;&#45;%>-->
+
+
+<div id="dowebok">
+    <div class="section">
+        <div class="layout-content front-facing index">
+            <div class="hero">
+                <div class="container">
+                    <h1>
+                        实时 高效 简约的银行股票<br>
+                        <small>
+                            <br>
+                            在线股票分析平台&nbsp;&nbsp;提供 <span data-js-hook="type-to-container">数据查询</span>
+                        </small>
+                    </h1>
+
+                    <div class="buttons-container">
+                        <a href="page/picture.jsp"
+                           class="wistia-popover[height=360,playerColor=7b796a,width=640] cpt-button style-outline size-large"
+                           data-js-hook="play-video-button">
+                            查询银行数据
+                        </a>
+                        <a href="page/market.jsp"
+                           class="wistia-popover[height=360,playerColor=7b796a,width=640] cpt-button style-outline size-large"
+                           data-js-hook="play-video-button">
+                            关注大盘信息
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

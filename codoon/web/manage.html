@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>账号管理</title>
+    <meta charset="utf-8" />
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            refreshUser();
+        });
+        function refreshUser(){
+            $.ajax({
+                type:"POST",
+                url:"manage.php",
+                data:{
+                },
+                dataType:"text",
+                success:function(data){
+                    var array=eval(data);
+                    var arrayLength=array.length;
+                    $('#list').empty();
+                    for(var i=0;i<arrayLength;i++){
+                        str='    <a href="#" class="list-group-item">'+
+                                '<div class="row">'+
+                                '<div class="col-md-2">用户名'+array[i].account+'</div>'+
+                                '<div class="col-md-4">密码'+array[i].password+'</div>'+
+                                '<div class="col-md-4">权限'+array[i].level+'</div>'+
+                                '<div class="col-md-2">'+
+                                '<button class="btn btn-default" type="button" onclick="del('+array[i].account+')">删除账号</button>'+
+                                '</div>'+
+                                '</div>'+
+                                '</a>';
+                        $('#list').append(str);
+                    }
+                },
+                error:function(data){
+                    alert("error");
+                    alert(data);
+                }
+            })
+        }
+        function del(account){
+            $.ajax({
+                type:"POST",
+                url:"delUser.php",
+                data:{
+                    "account": account
+                },
+                dataType:"text",
+                success:function(data){
+                    if(data==true){
+                        alert("删除成功");
+                        refreshUser();
+                    }else{
+                        alert('删除失败');
+                        refreshUser();
+                    }
+                },
+                error:function(data){
+                    alert("error")
+                    alert(data);
+                }
+            })
+        }
+
+    </script>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2">
+        <button type="button" class="btn btn-default" onclick="location='index.html'">注销</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2">
+        <button type="button" class="btn btn-default" onclick="refreshUser()">刷新</button>
+    </div>
+</div>
+<ul class="list-group" id="list">
+
+</ul>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.login{
+    position: absolute;
+    bottom:570px;
+    left:1160px;
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: 200;
+}
+
+.change{
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: 200;
+    text-decoration: none;
+}
